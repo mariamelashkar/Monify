@@ -1,0 +1,157 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "password": "hashedpassword123",
+        "last_login": "2024-09-01T08:00:00Z",
+        "is_superuser": true,
+        "username": "johndoe",
+        "first_name": "John",
+        "email": "john.doe@example.com",
+        "is_active": true,
+        "date_joined": "2024-08-31T12:00:00Z",
+        "prefix": "Mr.",
+        "position": "Developer"
+      },
+      {
+        "id": 2,
+        "password": "hashedpassword456",
+        "last_login": "2024-09-01T09:00:00Z",
+        "is_superuser": false,
+        "username": "janedoe",
+        "first_name": "Jane",
+        "email": "jane.doe@example.com",
+        "is_active": true,
+        "date_joined": "2024-08-31T13:00:00Z",
+        "prefix": "Ms.",
+        "position": "Manager"
+      }
+    ],
+    "teams": [
+      {
+        "id": 1,
+        "name": "Development Team",
+        "created_at": "2024-08-31T12:00:00Z",
+        "updated_at": "2024-08-31T12:00:00Z"
+      },
+      {
+        "id": 2,
+        "name": "Marketing Team",
+        "created_at": "2024-08-31T12:30:00Z",
+        "updated_at": "2024-08-31T12:30:00Z"
+      }
+    ],
+    "roles": [
+      {
+        "id": 1,
+        "name": "Admin",
+        "created_at": "2024-08-31T12:00:00Z",
+        "updated_at": "2024-08-31T12:00:00Z"
+      },
+      {
+        "id": 2,
+        "name": "User",
+        "created_at": "2024-08-31T12:00:00Z",
+        "updated_at": "2024-08-31T12:00:00Z"
+      }
+    ],
+    "branches": [
+      {
+        "id": 1,
+        "name": "Main Branch",
+        "branch_code": 1001,
+        "governate": "Cairo",
+        "longitude": 31.2357,
+        "latitude": 30.0444,
+        "address": "123 Main St",
+        "flex_value": "FLEX100",
+        "branch_company": "Tech Corp"
+      },
+      {
+        "id": 2,
+        "name": "Secondary Branch",
+        "branch_code": 1002,
+        "governate": "Giza",
+        "longitude": 31.2100,
+        "latitude": 30.0200,
+        "address": "456 Another St",
+        "flex_value": "FLEX200",
+        "branch_company": "Tech Corp"
+      }
+    ],
+    "user_roles": [
+      {
+        "id": 1,
+        "user_id": 1,
+        "role_id": 1
+      },
+      {
+        "id": 2,
+        "user_id": 2,
+        "role_id": 2
+      }
+    ],
+    "user_teams": [
+      {
+        "id": 1,
+        "user_id": 1,
+        "team_id": 1,
+        "created_at": "2024-08-31T12:00:00Z",
+        "updated_at": "2024-08-31T12:00:00Z"
+      },
+      {
+        "id": 2,
+        "user_id": 2,
+        "team_id": 2,
+        "created_at": "2024-08-31T13:00:00Z",
+        "updated_at": "2024-08-31T13:00:00Z"
+      }
+    ],
+    "user_team_roles": [
+      {
+        "id": 1,
+        "user_id": 1,
+        "team_id": 1,
+        "role_id": 1,
+        "created_at": "2024-08-31T12:00:00Z",
+        "updated_at": "2024-08-31T12:00:00Z"
+      },
+      {
+        "id": 2,
+        "user_id": 2,
+        "team_id": 2,
+        "role_id": 2,
+        "created_at": "2024-08-31T13:00:00Z",
+        "updated_at": "2024-08-31T13:00:00Z"
+      }
+    ],
+    "team_roles": [
+      {
+        "id": 1,
+        "team_id": 1,
+        "role_id": 1,
+        "created_at": "2024-08-31T12:00:00Z",
+        "updated_at": "2024-08-31T12:00:00Z"
+      },
+      {
+        "id": 2,
+        "team_id": 2,
+        "role_id": 2,
+        "created_at": "2024-08-31T13:00:00Z",
+        "updated_at": "2024-08-31T13:00:00Z"
+      }
+    ],
+    "user_branches": [
+      {
+        "id": 1,
+        "user_id": 1,
+        "branch_id": 1
+      },
+      {
+        "id": 2,
+        "user_id": 2,
+        "branch_id": 2
+      }
+    ]
+  }
+  
