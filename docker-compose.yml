@@ -1,7 +1,7 @@
 services:
   postgres:
     image: postgres:16
-    container_name: db-postgres
+    container_: db-postgres
     environment:
       POSTGRES_DB: mybee
       POSTGRES_USER: postgres
@@ -13,7 +13,7 @@ services:
       - "5433:5432"
   pgadmin:
     image: dpage/pgadmin4
-    container_name: pgadmin4_container
+    container_: pgadmin4_container
     restart: always
     ports:
       - "8888:80"

@@ -1,7 +1,7 @@
 package filters
 
 import (
-	"collection/utils"
+	"monify/utils"
 	"database/sql"
 )
 

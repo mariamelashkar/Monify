@@ -1,9 +1,9 @@
 package main
 
 import (
-	"collection/models"
+	"monify/models"
 	"log"
-	_ "collection/routers"
+	_ "monify/routers"
 	"github.com/beego/beego/v2/client/orm"
 	beego "github.com/beego/beego/v2/server/web"
 	_ "github.com/beego/beego/v2/server/web/session/postgres"
@@ -16,12 +16,12 @@ func main() {
 	dbPassword, _ := beego.AppConfig.String("db_password")
 	dbHost, _ := beego.AppConfig.String("db_host")
 	dbPort, _ := beego.AppConfig.String("db_port")
-	dbName, _ := beego.AppConfig.String("db_name")
+	db, _ := beego.AppConfig.String("db_")
 	orm.Debug = true
 
 	orm.RegisterDriver("postgres", orm.DRPostgres)
 
-	orm.RegisterDataBase("default", dbDriver, "user="+dbUser+" password="+dbPassword+" host="+dbHost+" port="+dbPort+" dbname="+dbName+" sslmode=disable")
+	orm.RegisterDataBase("default", dbDriver, "user="+dbUser+" password="+dbPassword+" host="+dbHost+" port="+dbPort+" db="+db+" sslmode=disable")
 
 	orm.RegisterModel(
 		new(models.Branch),

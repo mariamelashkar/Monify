@@ -1,7 +1,7 @@
 package models
 
 import (
-	"collection/utils"
+	"monify/utils"
 	"database/sql"
 	"time"
 )

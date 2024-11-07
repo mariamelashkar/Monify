@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"collection/models"
+	"monify/models"
 	beego "github.com/beego/beego/v2/server/web"
 )
 

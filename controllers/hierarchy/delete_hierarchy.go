@@ -1,8 +1,8 @@
 package hierarchy
 
 import (
-	"collection/models"
-	"collection/utils"
+	"monify/models"
+	"monify/utils"
 	"encoding/json"
 	"log"
 )

@@ -2,7 +2,7 @@ package filters
 
 import (
 	"log"
-	"collection/utils"
+	"monify/utils"
 	"fmt"
 )
 

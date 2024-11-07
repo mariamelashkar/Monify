@@ -1,9 +1,9 @@
 package routers
 
 import (
-	"collection/controllers/crud"
-	"collection/controllers/hierarchy"
-	filter "collection/controllers/late_customers_assign"
+	"monify/controllers/crud"
+	"monify/controllers/hierarchy"
+	filter "monify/controllers/late_customers_assign"
 	beego "github.com/beego/beego/v2/server/web"
 )
 

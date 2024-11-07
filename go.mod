@@ -1,6 +1,8 @@
-module collection
+module monify
 
-go 1.20
+go 1.21
+
+toolchain go1.23.2
 
 //toolchain go1.22.4
 
