@@ -6,7 +6,7 @@
 ## Features
 - **JWT Authentication**: Secure API endpoints with JSON Web Tokens, ensuring authorized access only.
 - **Dynamic Hierarchy Management**: Flexible role-based structure that allows inserting or deleting levels without disrupting the organizational flow.
-- **Go Routines**: Enhanced performance with concurrent processing, optimizing data retrieval and updates.
+- **Goroutines**: Enhanced performance with concurrent processing, optimizing data retrieval and updates.
 - **Dockerized PostgreSQL**: Easy setup with Docker to run PostgreSQL in an isolated environment.
 - **Customer Management**: CRUD operations for customer profiles, including contact and financial details.
 - **Loan Tracking**: Manage loan data, overdue amounts, and installment schedules.
