@@ -1,7 +1,9 @@
 # Monify
 
 ## Overview
-**Monify** is a backend application built with Go and Beego, designed to manage customer data, loans, team structures, and roles within an organization. It features JWT-based authentication for secure access, supports concurrent processing with Go routines, and includes Docker setup for easy database management with PostgreSQL. One of Monify's key highlights is its dynamic hierarchy management system, allowing organizations to scale and adjust their role structures seamlessly.
+**Monify** is a backend application built with Go and Beego, designed to manage customer data, loans, team structures, and roles within an organization. It features **JWT-based authentication**  for secure access, supports concurrent processing with **Goroutines**, and includes **Docker** setup for easy database management with **PostgreSQL**. One of Monify's key highlights is its dynamic hierarchy management system, allowing organizations to scale and adjust their role structures seamlessly.
+
+Monify leverages **Beego ORM** for model definitions but uses **direct database connections** for querying. This approach enhances flexibility and performance in database operations while maintaining strong security measures, including protection against SQL injection.
 
 ## Features
 - **JWT Authentication**: Secure API endpoints with JSON Web Tokens, ensuring authorized access only.
@@ -12,6 +14,7 @@
 - **Loan Tracking**: Manage loan data, overdue amounts, and installment schedules.
 - **Team and Role Management**: Set up teams, define roles, and organize users within a hierarchical structure.
 - **API Documentation**: Auto-generated Swagger documentation for easy API exploration and testing.
+- **Direct Database Querying**: Combines Beego ORM for model setup with direct DB queries, ensuring optimized performance and secure querying practices.
 
 ## Technologies Used
 - **Go**: Backend programming language.
